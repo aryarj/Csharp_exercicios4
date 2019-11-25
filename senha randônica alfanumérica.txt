@@ -1,0 +1,23 @@
+using System;
+
+namespace _0426Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+      
+     int codigo=0;
+     string senha="";
+     string caracter="";
+     Random randNum = new Random();
+     for(int i=0;i<10;i++)
+     {
+        codigo = randNum.Next(33,126);
+        caracter=((char)codigo).ToString();
+        senha=senha+caracter;
+     }
+        Console.WriteLine("Sua senha é:  "+senha);
+        }
+    }
+}

@@ -1,0 +1,30 @@
+using System;
+
+namespace _0426Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            
+            int soma=0;
+            for (int i=1;i<=5 ; i++)
+            {
+            
+                    Console.WriteLine("Digite um número positivo:  ");
+                    int numInt = Convert.ToInt32(Console.ReadLine());
+                    if(numInt<0)
+                    {continue;}
+            
+                    soma = soma+numInt;
+
+            }
+
+            
+            Console.WriteLine("Resultado da soma:  "+soma);
+
+        }
+                    
+    }
+}

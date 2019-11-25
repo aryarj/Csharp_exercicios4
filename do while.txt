@@ -1,0 +1,29 @@
+using System;
+
+namespace _0426Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool aux = true;
+            int soma=0;
+            do
+            {
+            
+                    Console.WriteLine("Informe um valor menos do que 20");
+                    int valor = Convert.ToInt32(Console.ReadLine());
+                    if(valor>=20)
+                    {break;}
+            
+                    soma = soma+valor;
+
+            }
+
+            while (aux==true);
+            Console.WriteLine("Valor da soma:  "+soma);
+
+        }
+                    
+    }
+}

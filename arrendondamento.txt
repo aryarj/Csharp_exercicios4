@@ -1,0 +1,22 @@
+using System;
+
+using System;
+
+namespace _0426Ary
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            
+        double valor=10.785246;
+        Console.WriteLine("O valor é  "+valor);
+
+        valor = Math.Round(valor,3);
+        Console.WriteLine("O valor é  "+valor);
+
+        }
+                    
+    }
+}
